@@ -76,25 +76,25 @@ You can close corresponding issues using a keyword in your pull request or commi
 # Creating a Pull Request from a Fork
 
 * Navigate to the original repository you created your fork from.
-* Pull Request buttonTo the right of the Branch menu, click New pull request.
-* Compare across forks link. On the Compare page, click compare across forks.
-* Drop-down menus for choosing the base fork and branch. Confirm that the base fork is the repository you'd like to merge  changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
-* Drop-down menus for choosing the head fork and compare branchUse the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
-* Pull request title and description fields. Type a title and description for your pull request. If you do not want to allow anyone with push access to the upstream repository to make changes to your PR, unselect Allow edits from maintainers.
-* Create pull request button. Click Create pull request.
+* To the right of the Branch menu, click ```New pull request```.
+* On the Compare page, click ```compare across forks```.
+* Confirm that the base fork is the repository you'd like to merge  changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
+* Use the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
+* Type a title and description for your pull request. If you do not want to allow anyone with push access to the upstream repository to make changes to your PR, unselect Allow edits from maintainers.
+* Click ```Create pull request```.
 
 # Merging a Pull Request on GitHub
 
-* Under your repository name, click Pull requests.
+* Under your repository name, click ```Pull requests```.
 * In the "Pull Requests" list, click the pull request you'd like to merge.
 
 Depending on the merge options enabled for your repository, you can:
 
-* Merge all of the commits into the base branch by clicking Merge pull request. If the Merge pull request option is not shown, then click the merge drop down menu and select Create a merge commit.
-* Squash the commits into one commit by clicking the merge drop down menu, selecting Squash and merge and then clicking the Squash and merge button.
-* Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting Rebase and merge and then clicking the Rebase and merge button.
+* Merge all of the commits into the base branch by clicking ```Merge pull request```. If the Merge pull request option is not shown, then click the merge drop down menu and select ```Create a merge commit```.
+* Squash the commits into one commit by clicking the merge drop down menu, selecting Squash and merge and then clicking the ```Squash and merge``` button.
+* Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting ```Rebase and merge``` and then clicking the Rebase and merge button.
 
 Note: Rebase and merge will always update the committer information and create new commit SHAs.
 
-* If you clicked Merge pull request or Squash and merge in step 3, type a commit message, or accept the default message. Under the commit message box, click Confirm merge or Confirm squash and merge.
-* If you clicked Rebase and merge in step 3, click Confirm rebase and merge. Optionally, delete the branch. This keeps the list of branches in your repository tidy.
+* If you clicked ```Merge pull request``` or ```Squash and merge``` in step 3, type a commit message, or accept the default message. Under the commit message box, click ```Confirm merge``` or ```Confirm squash and merge```.
+* If you clicked ```Rebase and merge``` in step 3, click ```Confirm rebase and merge```. Optionally, delete the branch. This keeps the list of branches in your repository tidy.
