@@ -12,6 +12,10 @@ A great example of using forks to propose changes is for bug fixes. Rather than 
 * Submit a pull request to the project owner.
 * If the project owner likes your work, they might pull your fix into the original repository!
 
+# Overview
+
+![alt text](github.jpg)
+
 # Forking a repository
 
 Visit the repository that you want to contribute to. Click on the fork button. You should see a copy of the repository in your own account.
